@@ -17,3 +17,8 @@ res <- getBM(attributes = c('ensembl_transcript_id_version',
              mart = mart)
 head(res)
 
+#now save the mapped list into a file
+
+write.table(res, file="D:/Capulus_thera/BLOG_WRITEUPS/AR_V7_cor_ids_0_3_grtr_mapped.txt",sep = "\t", row.names = TRUE )
+#if you are looking only for the unique list of gene symbols
+gene_list <- unique(res$external_gene_name)
