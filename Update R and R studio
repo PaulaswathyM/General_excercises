@@ -1,0 +1,24 @@
+How to update R and R stuiod
+#Run Rgui as an adminstrator 
+#Check whether installr is installed 
+#if not run 
+install.packages("installr")
+#load the libary
+libaray(installr) 
+# you can also pick up updateR from the new menu installr
+updateR()
+# just press “next”, “OK”, and “Yes” on everything that appears afer running
+# there will be also options to copyign and update the older packages, 
+#press yes on everything
+
+# it will take some time to complete the update
+#once it is done, download the latest version of Rstuido and install
+# After loading Rstudio if you do not see the latest version of R, 
+# Go to tools,
+# Select "Global options" from the drop down menu
+# Under General, Basic abd R sessions, there is an option to select the R version
+# Your installed libaray versions will be already listed
+# select the latest version from the them
+
+# Important reference https://www.r-statistics.com/2015/06/a-step-by-step-screenshots-tutorial-for-upgrading-r-on-windows/
+#https://bioinformatics.ccr.cancer.gov/docs/rtools/R%20and%20RStudio/2.6_switching_r_version/
